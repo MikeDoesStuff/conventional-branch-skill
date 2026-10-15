@@ -14,7 +14,7 @@
 
 1. Read local agent instructions. Inspect the installed skill, symlink/reparse-point target, installation scope, selected agents, and applicable skills lockfiles. The original command omitted `--global`; do not assume a global install. Resolve relative link targets against their parent directory.
 2. Back up the installed skill and relevant metadata outside the replacement directory. Identify other consumers before editing a shared symlink target.
-3. Verify GitHub access to the repository without displaying tokens or credentials. If authentication is missing, ask the user to sign in locally. Review the remote skill before installing.
+3. Verify read access to this public repository and review the remote skill before installing. Public installation should not require GitHub authentication. If corporate network policy blocks access, report the actual error rather than requesting or exposing credentials.
 4. Check installed skills CLI help for current replacement/removal behavior. Back up and remove only conflicting conventional-branch installations from their discovered scopes. Project copies can shadow the requested global install: inspect the original project when known, but do not scan or alter unrelated projects. If the original project cannot be found, report that limitation. Never remove unrelated skills or use broad `--all` removal.
 
 Install the specific skill globally for all agents supported by the installed CLI:

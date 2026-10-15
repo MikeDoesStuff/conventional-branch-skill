@@ -17,7 +17,9 @@ The skill provides agent guidance. It does not change Git hooks, CI, or hosting 
 npx skills add MikeDoesStuff/conventional-branch-skill --skill conventional-branch --global --agent '*' --yes
 ```
 
-This selects only this skill for all agents supported by the installed skills CLI, in user-global scope. Do not pass `--copy`; verify symlinks after installation. Shared canonical skill directories may be used directly instead of through a separate link. A private repository requires GitHub authentication on the installing PC.
+This public standalone repository contains the adapted skill, not the full upstream project. Public read access does not require GitHub authentication.
+
+The command selects only this skill for all agents supported by the installed skills CLI, in user-global scope. Do not pass `--copy`; verify symlinks after installation. Shared canonical skill directories may be used directly instead of through a separate link.
 
 For an existing installation, give your local agent [LOCAL-AGENT-HANDOFF.md](LOCAL-AGENT-HANDOFF.md). It covers backup, old project/global copies, symlink verification, and source metadata.
 
