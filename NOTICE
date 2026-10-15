@@ -1,0 +1,37 @@
+Conventional Branch - purpose-only skill adaptation
+
+This adaptation is distributed under Creative Commons Attribution 4.0
+International (CC BY 4.0). See LICENSE and:
+https://creativecommons.org/licenses/by/4.0/
+
+Original work:
+Conventional Branch, by Conventional Branch Contributors
+https://conventionalbranch.org
+https://github.com/conventional-branch/conventional-branch
+Original skill: skills/conventional-branch/SKILL.md
+Copyright (c) 2024-2026 Conventional Branch Contributors
+Licensed under CC BY 4.0.
+
+Upstream reference inspected when preparing this repository:
+76709bb4c908500eaa696caf8e0e59dfe95be9e5
+The customized skill was retrieved from upstream main on 2026-10-15.
+
+Underlying attribution retained from upstream:
+Conventional Commits, by Conventional Changelog
+https://www.conventionalcommits.org
+Copyright (c) 2018 Conventional Changelog
+Licensed under CC BY 4.0.
+Upstream adapted its commit-message specification to Git branch names.
+
+Local modifications (2026-10-15):
+- Removed AI/tool source prefixes from accepted branch types and examples.
+- Added preferred perf/ and its performance/ alias.
+- Aligned the grammar with the existing release-only dot rule.
+- Clarified external validator configuration and local-variant status.
+- Adjusted skill metadata and added attribution and installation guidance.
+
+UPSTREAM-NOTICE is retained verbatim. Its Hugo theme reference describes
+the original repository; that theme is not included in this repository.
+
+This adaptation does not imply endorsement by the original creators.
+No additional restrictions are imposed on exercise of the licensed rights.
