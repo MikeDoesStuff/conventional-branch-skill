@@ -21,7 +21,7 @@ This public standalone repository contains the adapted skill, not the full upstr
 
 The command selects only this skill for all agents supported by the installed skills CLI, in user-global scope. Do not pass `--copy`; verify symlinks after installation. Shared canonical skill directories may be used directly instead of through a separate link.
 
-For an existing installation, give your local agent [LOCAL-AGENT-HANDOFF.md](LOCAL-AGENT-HANDOFF.md). It covers backup, old project/global copies, symlink verification, and source metadata.
+Before replacing an existing installation, inspect its scope and link targets, back up conflicting copies and metadata, and verify the recorded source after installation.
 
 ## Install from a local checkout
 
@@ -29,7 +29,7 @@ For an existing installation, give your local agent [LOCAL-AGENT-HANDOFF.md](LOC
 npx skills add ./skills --skill conventional-branch
 ```
 
-For an existing installation, follow [LOCAL-AGENT-HANDOFF.md](LOCAL-AGENT-HANDOFF.md) to inspect its scope and symlinks, back it up, replace it, and verify installation metadata. Keep this checkout as your customized source instead of reinstalling the upstream skill.
+Keep this checkout as your customized source instead of reinstalling the upstream skill.
 
 The skill entrypoint is [skills/conventional-branch/SKILL.md](skills/conventional-branch/SKILL.md).
 
